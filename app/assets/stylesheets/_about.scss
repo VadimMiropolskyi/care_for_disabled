@@ -2,7 +2,49 @@
     border: 30px solid pink;
 }
 
-.horse_img > img {
-    width: 200px;
-    height: 200px;
+.second_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
+
+.horse_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  /*   margin-top: 100px;
+    margin-bottom: 100px; */
+}
+
+.horse_img > img {
+    width: 340px;
+    height: 450px;
+}
+
+.third_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    .about_img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        margin: 10px 0;
+      }
+
+      img:first-child {
+        width: 245px;
+      }
+
+      img:last-child {
+        width: 178px;
+      }
+    }
+  }
