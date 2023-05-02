@@ -1,0 +1,143 @@
+.service {
+    border: 30px solid pink;
+}
+
+.service_second_block {
+    div {
+        margin-top: 30px;
+    }
+}
+
+.service_first_block {
+    div {
+        margin-top: 25px;
+    }
+}
+
+$title-color-1: #007bff; // синий цвет
+$title-color-2: #ff00ff; // розовый цвет
+$title-duration: 2s; // длительность анимации
+
+.title {
+  h1 {
+    font-size: 64px;
+    background: -webkit-linear-gradient(left, $title-color-1, $title-color-2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue $title-duration ease-in-out infinite alternate;
+    @keyframes hue {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    }
+    color: $title-color-1;
+  }
+}
+
+.picture_block_one {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.picture_one_block_one {
+    img {
+        height: 250px;
+        width: 220px;
+    }
+}
+
+.picture_two_block_one {
+    img {
+        height: 250px;
+        width: 200px;
+    }
+}
+
+.picture_block_two {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.picture_one_block_two {
+    img {
+        height: 250px;
+        width: 207px;
+    }
+}
+
+.picture_two_block_two {
+    img {
+        height: 250px;
+        width: 200px;
+    }
+}
+
+.list_one::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(74, 50, 168);
+    margin-right: 10px;
+  }
+
+.list_one {
+    p {
+        display: contents;
+        color: rgb(74, 50, 168);
+        font-size: 24px;
+    }
+}
+
+.list_two {
+    p {
+        display: contents;
+        color: rgb(74, 50, 168);
+        font-size: 18px;
+    }
+}
+
+.list_three::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(74, 50, 168);
+    margin-right: 10px;
+  }
+
+.list_three {
+    p {
+        display: contents;
+        color: rgb(74, 50, 168);
+        font-size: 24px;
+    }
+}
+
+.list_four::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(74, 50, 168);
+    margin-right: 10px;
+  }
+
+.list_four {
+    p {
+        display: contents;
+        color: rgb(74, 50, 168);
+        font-size: 24px;
+    }
+}
+
+
+
+
+

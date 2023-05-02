@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- Logo -->
     <%= link_to home_path, class: 'navbar-brand' do %>
-      <img src="path/to/logo.png" alt="Logo">
+      <%= image_tag('logo-color.png', alt: 'Logo', style: 'width: 50px; height: 50px; background-color: transparent;') %>
     <% end %>
 
     <!-- Hamburger icon for mobile -->
@@ -26,4 +26,46 @@
     </div>
   </div>
 </nav>
-<h1>HELLO</h1>
+
+<div class="container-fluid service">
+ <div class="row">
+   <div class="col-md-6 service_first_block">
+    <div class="title">
+     <h1>Services I offer</h1>
+    </div>
+    <div class="picture_block_one">
+      <div class="picture_one_block_one">
+       <%= image_tag('service_one_one.jpg', alt: 'service') %>
+      </div>
+      <div class="picture_two_block_one">
+       <%= image_tag('service_one_two.jpg', alt: 'service') %>
+      </div>
+    </div>
+    <div class="list_one">
+      <p>organization of daily programs of various activities for the disabled, supporting and developing the following:</p>
+    </div>
+    <div class="list_two">
+      <p>Individual life skills& fine motor skills( cooking, shopping,crufts); general fitness&co-coordination ( visiting a fitness club, dancing, bowling, golf, swimming)
+      </p>
+    </div>
+   </div>
+   <div class="col-md-6 service_second_block">
+    <div class="list_three">
+      <p>transportation services and respite for families, that include long and short stays for disabled people at my place on weekends.
+      </p>
+    </div>
+    <div class="list_four">
+      <p>community involvement &access( visiting friends, shared lunches and dinners, parks, library, visits to hairdressing and nail salons ,cinemas and other events)
+      </p>
+    </div>
+    <div class="picture_block_two">
+      <div class="picture_one_block_two">
+       <%= image_tag('service_two_one.jpg', alt: 'service') %>
+      </div>
+      <div class="picture_two_block_two">
+       <%= image_tag('service_two_two.jpg', alt: 'service') %>
+      </div>
+    </div>
+   </div>
+ </div>
+</div>
