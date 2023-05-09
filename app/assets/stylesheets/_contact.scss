@@ -2,10 +2,40 @@
     border: 30px solid pink;
 }
 
+
 .contact_first_block {
-    background-color: yellow;
+    img {
+        width: 100%;
+    }
 }
 
 .contact_second_block {
-    background-color: blue;
+   /*  background-color: blue; */
+   display: flex;
+  /*  align-items: center;
+   justify-content: center; */
+}
+
+.telefon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+    }
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+    }
 }

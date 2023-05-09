@@ -29,11 +29,20 @@
 
 <div class="container-fluid contact">
   <div class="row">
-    <div class="col-md-12 contact_first_block">
-     <p>cndjncdjncjd</p>
+    <div class="col-md-12 contact_first_block" style="
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+">
+      <%= image_tag('darwin.jpg', alt: 'contact') %>
     </div>
     <div class="col-md-12 contact_second_block">
-     <p>dsmkcnmsdkcn</p>
-    </div>
+      <div class="col-md-6 telefon">
+       <%= link_to 'mobile: +61 040 9313743', 'tel:+610409313743' %>
+      </div>
+      <div class="col-md-6 mail">
+       <%= link_to 'email: nkopytovska60@gmail.com', 'mailto:nkopytovska60@gmail.com' %>
+      </div>
+   </div>
   </div>
 </div>
